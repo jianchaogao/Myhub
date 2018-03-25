@@ -1,5 +1,5 @@
 exports.showCreate = (req,res) => {
-	res.send('showCreate')
+	res.render('topic/create.html')
 }
 
 exports.create = (req,res) => {
@@ -7,11 +7,11 @@ exports.create = (req,res) => {
 }
 
 exports.show = (req,res) => {
-	res.send('show')
+	res.render('topic/show.html')
 }
 
 exports.showEdit = (req,res) => {
-	res.send('showEdit')
+	res.render('topic/edit.html')
 }
 
 exports.edit = (req,res) => {
